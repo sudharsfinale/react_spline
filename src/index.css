@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: black;
+  color: #e7e7e7;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+:root {
+  /* Colors */
+  --color-primary: #a7a7a7;
+  --color-accent: #5300a0;
+  --color-text: gray;
+  --color-bg: black;
+  --color-white: white;
+  --color-link-hover: #a7a7a7;
+  --color-button-hover: #1a1a1a;
+
+  /* Font sizes */
+  --font-xs: 1rem;
+  --font-sm: 1.2rem;
+  --font-md: 2rem;
+  --font-lg: 3rem;
+  --font-xl: 4rem;
+
+  /* Spacing */
+  --padding-x: 2rem;
+  --padding-header: 1rem 5rem;
+  --padding-btn: 0.8rem 2rem;
+
+  /* Tablet Spacing */
+  --padding-header-tablet: 1rem 0.5rem;
+
+  /* Mobile Spacing */
+  --padding-header-mobile: 1rem 0.1rem;
+
+  /* Other */
+  --border-radius-full: 50px;
+  --box-shadow-white: 0 0 700px 15px var(--color-white);
+  --box-shadow-glow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+
+a {
+  text-decoration: none;
+}
