@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import SplineViewer from "./components/spline_viewer/spline_viewer";
 import AOS from "aos";

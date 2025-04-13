@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { useEffect } from "react";
 import "./spline_viewer.css";
 import "../../App.css";

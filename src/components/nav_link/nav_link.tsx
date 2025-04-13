@@ -1,4 +1,3 @@
-import React from "react";
 import "../../App.css";
 const NavLink = ({ labelName = "", renderDuration = "500" }) => {
   return (
